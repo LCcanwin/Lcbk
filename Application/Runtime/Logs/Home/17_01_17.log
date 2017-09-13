@@ -1,0 +1,1107 @@
+[ 2017-01-17T13:54:34+08:00 ] ::1 /carshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-01-17T14:10:18+08:00 ] ::1 /carshop/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:21+08:00 ] ::1 /carshop/index.php/Home/Arlist/index/cateid/69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=69 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=69 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:10:25+08:00 ] ::1 /carshop/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=70 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`title`,`pic`,`rizu` FROM `cs_article` WHERE ( cateid=68 ) ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`title`,`time` FROM `cs_article` WHERE ( cateid=69 ) ORDER BY id desc LIMIT 3   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T14:10:26+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=67 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:10:30+08:00 ] ::1 /carshop/index.php/Home/Search/?kws=gf&cateid=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( 1 AND title LIKE "%gf%" AND cateid =69 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( 1 AND title LIKE "%gf%" AND cateid =69 ) LIMIT 0,3   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\b5c26778e4651bc280b1e3680d7ad0cb.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\b5c26778e4651bc280b1e3680d7ad0cb.php 第 151 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\b5c26778e4651bc280b1e3680d7ad0cb.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\b5c26778e4651bc280b1e3680d7ad0cb.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T14:10:32+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=87 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0060s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-01-17T14:10:33+08:00 ] ::1 /carshop/index.php/Home/Message/index/cateid/86
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.005000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.005000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 86 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 86 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 86 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=86 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_message` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `cs_reply` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_message` WHERE ( checked=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_reply`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 165 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 165 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 165 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 165 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: name H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: type H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: name H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 188 行.
+NOTIC: [8] Undefined index: name H:\php\htdocs\carshop\Application\Runtime\Cache\Home\455a6242d1c94ccc41106a388080363b.php 第 190 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:33+08:00 ] ::1 /carshop/index.php/Home/Message/code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0060s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0070s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:10:38+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=87 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0060s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-01-17T14:10:42+08:00 ] ::1 /carshop/index.php/Home/Zplist/index/cateid/85
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 85 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=85 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=85 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=85 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a725b31f0cd63b69a227c1dbbab8aa77.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a725b31f0cd63b69a227c1dbbab8aa77.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a725b31f0cd63b69a227c1dbbab8aa77.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a725b31f0cd63b69a227c1dbbab8aa77.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:45+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=84 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:47+08:00 ] ::1 /carshop/index.php/Home/Ry/index/cateid/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=80 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0070s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=80 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=80 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:49+08:00 ] ::1 /carshop/index.php/Home/Carlist/index/cateid/70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=70 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=70 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=70 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:10:54+08:00 ] ::1 /carshop/index.php/Home/Arlist/index/cateid/69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=69 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=69 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:10:55+08:00 ] ::1 /carshop/index.php/Home/Carlist/index/cateid/68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=68 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008001s ]
+
+[ 2017-01-17T14:10:59+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id<16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id>16 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: aricles H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:10:59+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/js/fy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:02+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/17
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0050s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 17 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id<17 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id>17 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: aricles H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:11:02+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/js/fy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:05+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/16
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id<16 ) ORDER BY id desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( id>16 ) ORDER BY id asc LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 147 行.
+NOTIC: [8] Undefined index: cateid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 152 行.
+NOTIC: [8] Undefined variable: aricles H:\php\htdocs\carshop\Application\Runtime\Cache\Home\2ac6c1276904b87404ed678dbabb985c.php 第 195 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:11:05+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/js/fy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0070s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:07+08:00 ] ::1 /carshop/index.php/Home/Article/index/cateid/72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 72 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=72 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=72 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id< ) ORDER BY id desc LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id< ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:08+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/js/fy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004001s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:09+08:00 ] ::1 /carshop/index.php/Home/Article/index/cateid/74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 74 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 74 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 74 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=74 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=74 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0000s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id< ) ORDER BY id desc LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ') ORDER BY id desc LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id< ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:11+08:00 ] ::1 /carshop/index.php/Home/Article/index/arid/js/fy.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: pres H:\php\htdocs\carshop\Application\Home\Controller\CommonController.class.php 第 19 行.
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0010s ]
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+ERR: 1054:Unknown column 'js' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `cs_article` WHERE ( id<js ) ORDER BY id desc LIMIT 1  
+
+[ 2017-01-17T14:11:13+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=67 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 67 LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-01-17T14:11:15+08:00 ] ::1 /carshop/index.php/Home/Carlist/index/cateid/68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 68 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=68 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=68 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 152 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:11:19+08:00 ] ::1 /carshop/index.php/Home/Arlist/index/cateid/69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 69 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=69 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=69 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=69 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+NOTIC: [8] Undefined variable: contro H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 146 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\0b67f368aa9aa7c51ba19e336244a85a.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:11:20+08:00 ] ::1 /carshop/index.php/Home/Carlist/index/cateid/70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 70 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=70 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=70 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=70 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\a48709bca952eced7bd8fa469ec83b13.php 第 157 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-17T14:11:22+08:00 ] ::1 /carshop/index.php/Home/Ry/index/cateid/80
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 80 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=80 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0010s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_article` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `cs_article` WHERE ( cateid=80 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_article` WHERE ( cateid=80 ) ORDER BY time asc LIMIT 0,2   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\baf4f4cb3ce169f386291e98251f0b6c.php 第 153 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-01-17T14:11:25+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/84
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0020s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=84 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0040s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 84 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004000s ]
+
+[ 2017-01-17T14:11:29+08:00 ] ::1 /carshop/index.php/Home/Page/index/cateid/87
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003001s ]
+SQL: SHOW COLUMNS FROM `cs_cate` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=87 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cs_cate` WHERE ( parentid=68 )  [ RunTime:0.0000s ]
+SQL: SELECT `id`,`name`,`type` FROM `cs_cate` WHERE `parentid` = 0 AND `pc` = 1 ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cs_link` [ RunTime:0.0030s ]
+SQL: SELECT `title`,`url` FROM `cs_link`  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cs_cate` WHERE `id` = 87 LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+NOTIC: [8] Undefined variable: son3pid H:\php\htdocs\carshop\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 151 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
